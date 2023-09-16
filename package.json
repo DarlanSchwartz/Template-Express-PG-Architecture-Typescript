@@ -1,0 +1,37 @@
+{
+  "name": "template-typescript-express-pg-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "node dist/app.js",
+    "dev": "nodemon --exec ts-node -r tsconfig-paths/register ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "Darlan Schwartz",
+  "license": "ISC",
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status": "^1.7.0",
+    "joi": "^17.9.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.17.16",
+    "@types/pg": "^8.10.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.7",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2",
+    "typescript-transform-paths": "^3.4.6"
+  }
+}
