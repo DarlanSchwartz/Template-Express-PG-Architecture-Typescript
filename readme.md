@@ -59,6 +59,7 @@ DATABASE_USER=user
 DATABASE_NAME=databasename
 DATABASE_PORT=5432
 NODE_ENV=development or production
+PORT=5000
 ```
 
 ## This template has some example routes as following:
