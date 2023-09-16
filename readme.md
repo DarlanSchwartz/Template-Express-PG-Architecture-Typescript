@@ -149,3 +149,35 @@ example: /update-post/420
 - Response -> Status code 204
 ```javascript
 ```
+
+# How to deploy on render
+
+- Leave Root Directory empty
+
+- Build command
+
+```bash
+npm install && npm run build
+```
+
+- Start Command
+
+
+```bash
+npm start
+```
+
+<img src="./prints (delete me)/print-render-commands.PNG">
+
+## Enviormental Variables
+
+- Insert the same ones that you have on the [Env example file](./.env.example)
+
+
+<img src="./prints (delete me)/print-env.PNG">
+
+## Sucess
+
+- If you have followed along everything will be a sucess and you should see the same as the image below:
+
+<img src="./prints (delete me)/print-deploy-sucess.PNG">
